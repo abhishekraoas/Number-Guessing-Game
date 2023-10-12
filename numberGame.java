@@ -26,6 +26,8 @@ public class numberGame {
                 System.out.println("Your Number is Wrong, That is a Greater");
             } else if (guessNumber == randomNumber) {
                 System.out.println("Congratulation, You Guess the Correct Number");
+
+                // Showing the Score out of 100
                 yourScore = 100 - chance;
                 System.out.println("Your Score is : " + yourScore);
             }
