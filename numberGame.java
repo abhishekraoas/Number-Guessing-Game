@@ -13,7 +13,8 @@ public class numberGame {
         int yourScore;
         int chance = 0;
         int guessNumber;
-        // Creating Guess Number
+
+        // Creating Guess Number Logic
         do {
             System.out.print("Enter the Guess Number 1 to 100 : ");
             guessNumber = userInput.nextInt();
