@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class numberGame {
 
+    // Creating a Function for the game
     static void userGuessNumberGame() {
         while(true){
             // Creating a Input Object
