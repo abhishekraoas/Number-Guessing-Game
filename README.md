@@ -1,4 +1,4 @@
-# Number Guessing Game
+# Task 1 Number Guessing Game
 
 This is a simple Java program for a number guessing game. The program generates a random number between 1 and 100, and the user needs to guess the correct number. The game provides feedback on whether the guess is too high or too low and allows a maximum of 10 attempts to guess the correct number.
 
