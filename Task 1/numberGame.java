@@ -8,8 +8,8 @@ public class numberGame {
     public static void main(String[] args) {
 
         while (true) {
-            try (
-                    Scanner userInput = new Scanner(System.in)) {
+            try {
+                Scanner userInput = new Scanner(System.in);
                 // For Generating Random Number
                 Random randNum = new Random();
                 int randomNumber = randNum.nextInt(100);
@@ -53,7 +53,11 @@ public class numberGame {
                     System.out.println("Thanks For Playing ! ");
                     break;
                 }
+            } catch (Exception e) {
+                // TODO: handle exception
+                System.out.println(e.getMessage());
             }
+        
         }
 
     }
